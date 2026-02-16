@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form - Ritsav Shrestha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Ritsav Shrestha</h1>
+      <p class="subtitle">Backend Developer</p>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="form.html" class="active">Form</a>
+    </nav>
+
+    <h3>Contact ME</h3>
+    <form>
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" required>
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" required>
+      </div>
+      <div class="form-group">
+        <label>Interest</label>
+        <select>
+          <option>ASP.NET Core</option>
+          <option>Rust</option>
+          <option>Go</option>
+          <option>Distributed Systems</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea rows="3"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+
+    <footer>
+      © 2026 Ritsav Shrestha
+    </footer>
+  </div>
+</body>
+</html>
